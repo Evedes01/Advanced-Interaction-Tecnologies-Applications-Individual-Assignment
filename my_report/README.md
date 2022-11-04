@@ -12,6 +12,18 @@
 
 # 1st Deliverable
 >###  1. Video Capture: 
+Για το πρώτο βήμα, ξεκίνησα κατεβάζοντας στο Processing το library για το Video και έπειτα ακολούθησα τις οδηγίες του [συδέσμου](https://processing.org/tutorials/video/#live-video) και του παραδείγματος 16-1 του βιβλίου Learning Processing για να γράψω τον κώδικα. Αφού άλλαξα τις διαστάασεις του παραθύρου
+
+![](Report_materials/step1_1.PNG)
+
+έτρεξα το πρόγραμμα.
+<br>'Οπως φαίνεται παρακάτω, το πρόγραμμα τρέχει σωστά και εμφανίζεται το βίντεο που καταγράφει η κάμερα.
+
+![](Report_materials/step1_2.PNG)
+
+Και η ένδειξη στον compiler:
+
+![](Report_materials/step1_dec.PNG)
 
 >###  2. Recorded video: 
 
