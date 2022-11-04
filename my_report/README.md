@@ -43,8 +43,9 @@
 και λειτούργησε ομαλά, το βίντεο έπαιζε σε λούπα και στις διαφορετικές ταχύτητες.
 
 >##  3. QR Code:  
-Για την δημιουργία του QR code επισκέφτηκα [αυτή](https://www.qrcode-monkey.com/?utm_source=google_c&utm_medium=cpc&utm_campaign=&utm_content=&utm_term=qrcode%20monkey_e&gclid=CjwKCAjw8JKbBhBYEiwAs3sxN6yxfBJHuRFeC35FTpOlhm42mXNSqnNOPvVUIutf8s3RqK6aTZ6WOBoC8PsQAvD_BwE) την ιστοσελίδα και αφού το έφτιαξα, το κατέβασα και το τοποθέτησα στον φάκελο data. 
-<br><br>Για το πρόγραμμα, αρχικά, κατέβασα την βιβλιοθήκη για το QR Code από το σχετικό [link](https://shiffman.net/p5/qrcode-processing/) (ανοίγοντας τα Developer tools, καθώς αντιμετώπιζε κάποιο πρόβλημα το link στην ιστοσελίδα). 
+Για την δημιουργία του QR code επισκέφτηκα [αυτή](https://www.qrcode-monkey.com/?utm_source=google_c&utm_medium=cpc&utm_campaign=&utm_content=&utm_term=qrcode%20monkey_e&gclid=CjwKCAjw8JKbBhBYEiwAs3sxN6yxfBJHuRFeC35FTpOlhm42mXNSqnNOPvVUIutf8s3RqK6aTZ6WOBoC8PsQAvD_BwE) την ιστοσελίδα και αφού το έφτιαξα, το κατέβασα και το τοποθέτησα στον φάκελο data.
+
+<br><br>Για το πρόγραμμα, αρχικά, κατέβασα την βιβλιοθήκη για το QR Code από το σχετικό [link](https://shiffman.net/p5/qrcode-processing/) (ανοίγοντας τα Developer tools, καθώς αντιμετώπιζε κάποιο πρόβλημα το link στην ιστοσελίδα), αλλά επειδή δεν κατάφερα να την αποθηκεύσω σωστα, τελικά, την κατέβασα μέσω του Processing, όπου καταχωρήθηκε αμέσως.
 <br>Στη συνέχεια, αντέγραψα τον κώδικα της ιστοσελίδας στο Processing και προσέθεσα και κάποια στοιχεία του κώδικα από το παράδειγμα 15-1 του βιβλίου, όπως το "PImage img;" για να μπορώ να εισάγω και να χρησιμοποιήσω την εικόνα του QR:
 
 ![](Report_materials/step3_1copy.png)
@@ -69,6 +70,27 @@
 ![](Report_materials/step3_3.PNG)
 
 >##  4. QR Code - Camera Read: 
+
+Για αυτό το βήμα χρησιμοποίησα το QR code και το library από το προηγούμενο βήμα, και, όπως προηγουμένως, εισήγαγα στο data file την εικόνα του QR code.
+
+<br>Όσων αφορά τον κώδικα, άνοιξα και επεξεργάστηκα το παράδειγμα _QRCodeExample_. Ο κώδικας παρέμεινε σταθερός, ενώ οι βασικές αλλαγές που έκανα ήταν στις εντολές του switch case:
+<br><br>
+Πρώτα στην εισαγωγή του προσωπικού μου QR code...
+
+![](Report_materials/step4_1.PNG)
+
+και έπειτα, προσθέτοντας ένα νέο case, το πλήκτρο "o", με το οποίο ενεργοποιείται η εντολή να ανοίξει το αποκωδικοποιημένο link στον browser.
+
+![](Report_materials/step4_11.png)
+<br>(χρησιμοποίησα την ίδια γραμμή κώδικα με το βήμα 3, από αυτή τη [σελίδα](https://processing.org/examples/embeddedlinks.html))
+
+<br>Όταν έτρεξα το πρόγραμμα, το παράθυρο με το βίντεο από την κάμερα εμφανίστηκε κανονικά, ενώ η μόνη μικρή δυσκολία ήταν να αναγνωρίσει σωστά η κάμερα το QR code. Στο status mmessage φαίνεται όταν το αναγνωρίζει επιτυχώς (κάθε φορά τραβώντας screenshot με το "space-bar"), ενώ στον compiler οι προσπάθειες αναγνώρισης.
+
+![](Report_materials/step4_3.PNG) ![](Report_materials/step4_5.PNG) ![](Report_materials/step4_dec.PNG)
+
+Παρ'όλα αυτά, το πρόγρμμα λειτούργησε και πατώντας το "o", το προφίλ άνοιξε επιτυχώς σε καινούριο tab στον browser.
+
+ ![](Report_materials/step4_6.PNG)
 
 >##  5. Augmented Reality:  
 
