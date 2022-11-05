@@ -84,11 +84,15 @@
 ![](Report_materials/step4_11.png)
 <br>(χρησιμοποίησα την ίδια γραμμή κώδικα με το βήμα 3, από αυτή τη [σελίδα](https://processing.org/examples/embeddedlinks.html))
 
-<br>Όταν έτρεξα το πρόγραμμα, το παράθυρο με το βίντεο από την κάμερα εμφανίστηκε κανονικά, ενώ η μόνη μικρή δυσκολία ήταν να αναγνωρίσει σωστά η κάμερα το QR code. Στο status mmessage φαίνεται όταν το αναγνωρίζει επιτυχώς (κάθε φορά τραβώντας screenshot με το "space-bar"), ενώ στον compiler οι προσπάθειες αναγνώρισης.
+<br>Όταν έτρεξα το πρόγραμμα, το παράθυρο με το βίντεο από την κάμερα εμφανίστηκε κανονικά, ενώ η μόνη μικρή δυσκολία ήταν να αναγνωρίσει σωστά η κάμερα το QR code. Στο status mmessage φαίνεται όταν το αναγνωρίζει επιτυχώς (κάθε φορά τραβώντας screenshot με το "space-bar"), 
 
-![](Report_materials/step4_3.PNG) ![](Report_materials/step4_5.PNG) ![](Report_materials/step4_dec.PNG)
+![](Report_materials/step4_3.PNG) ![](Report_materials/step4_4.PNG) ![](Report_materials/step4_5.PNG)
 
-Παρ'όλα αυτά, το πρόγρμμα λειτούργησε και πατώντας το "o", το προφίλ άνοιξε επιτυχώς σε καινούριο tab στον browser.
+ενώ στον compiler οι προσπάθειες αναγνώρισης.
+
+![](Report_materials/step4_dec.PNG)
+
+Παρ'όλα αυτά, το πρόγραμμα λειτούργησε και πατώντας το "o", το προφίλ άνοιξε επιτυχώς σε καινούριο tab στον browser.
 
  ![](Report_materials/step4_6.PNG)
 
