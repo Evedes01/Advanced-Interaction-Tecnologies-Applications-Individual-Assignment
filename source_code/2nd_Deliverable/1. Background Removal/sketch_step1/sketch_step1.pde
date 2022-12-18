@@ -15,15 +15,14 @@ void setup() {
   size(854, 480);
   video = new Capture(this, width, height, 30);
   video.start();
-
   // Create an empty image the same size as the video
   backgroundImage = createImage(video.width, video.height, RGB);
   film = new Movie(this, "rize.mp4");
   film.loop();
 }
 
-// New frame available from camera
 void captureEvent(Capture video) {
+  // Read image from the camera
   video.read();
 }
 
@@ -33,9 +32,6 @@ void movieEvent (Movie film) {
 
 
 void draw() {
-  // Map the threshold to mouse location
-  threshold = map(mouseX, 0, width, 5, 50);
-
   // We are looking at the video's pixels, the memorized backgroundImage's pixels, as well as accessing the display pixels. 
   // So we must loadPixels() for all!
   loadPixels();
@@ -65,7 +61,7 @@ void draw() {
         // If so, display the foreground color
         pixels[loc] = fgColor;
       } else {
-        // If not, display the beach scene
+        // If not, display the video
         pixels[loc] = film.pixels[loc];
       }
     }
